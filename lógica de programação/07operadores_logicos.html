@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>07 - Operadores Lógicos</title>
+
+    <script>
+    /*
+    && -> E
+    || -> OU
+    ! -> Negação
+
+    */
+
+    // Variáveis
+    let valorCompra = 500
+    let formaPagamento = "A vista"
+
+    // Condicional Encadeada
+    if((valorCompra >= 500) && (formaPagamento == "A vista")){
+        document.write("Desconto de 10%!<br>")
+        document.write("R$"+(valorCompra * 0.9))
+
+    }else{
+        document.write("R$"+valorCompra)
+    }
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
